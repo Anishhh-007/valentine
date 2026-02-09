@@ -65,7 +65,7 @@ const App = () => {
   </button>
 
   {/* No Button - 8 choti pachi hide hunchha */}
-  {noCount < 8 && (
+  {noCount < 7 && (
     <button
       className="bg-red-500 hover:bg-red-600 text-white w-14 h-10 font-medium py-2 px-4 rounded-lg transition-all shadow-md active:scale-95 shrink-0"
       onClick={() => setNoCount(noCount + 1)}

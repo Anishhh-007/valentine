@@ -53,7 +53,7 @@ const App = () => {
   {/* Yes Button */}
   <button
     className={`bg-green-500 hover:bg-green-600 text-white font-bold rounded-2xl transition-all shadow-xl active:scale-90 ${
-      noCount >= 8 ? "w-full h-full " : ""
+      noCount >= 7 ? "w-full h-full " : ""
     }`}
     style={noCount < 8 ? { 
       fontSize: `${yesButtonSize}px`, 

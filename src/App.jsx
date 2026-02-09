@@ -55,7 +55,7 @@ const App = () => {
     className={`bg-green-500 hover:bg-green-600 text-white font-bold rounded-2xl transition-all shadow-xl active:scale-90 ${
       noCount >= 7 ? "w-full h-full " : ""
     }`}
-    style={noCount < 8 ? { 
+    style={noCount < 7 ? { 
       fontSize: `${yesButtonSize}px`, 
       padding: `${yesButtonSize / 1.5}px ${yesButtonSize}px` 
     } : {}}
